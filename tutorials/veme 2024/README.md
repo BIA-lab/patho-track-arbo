@@ -34,11 +34,5 @@
 TO build the docker image, ooen the command line at the root folder of this repository and type:
 
 ```
-docker build -t genomic-dashboard .
-```
-
-Running the container:
-
-```
-docker run -p 8511:8511 --name genomic-dashboard -d genomic-dashboard .
+docker-compose up --build
 ```
