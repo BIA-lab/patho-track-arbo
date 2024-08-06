@@ -1,4 +1,4 @@
-[![Open with Gitpod](https://img.shields.io/badge/Open%20with-Gitpod-908a85?logo=gitpod)](https://github.com/BIA-lab/patho-track-arbo)
+[![Open with Gitpod](https://img.shields.io/badge/Open%20with-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/BIA-lab/patho-track-arbo)
 
 # VEME 2024 Pathogen Dashboards Tutorial
 
