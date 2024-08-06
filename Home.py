@@ -5,7 +5,7 @@ from utils.functions import *
 from PIL import Image
 
 st.set_page_config(
-         page_title="CLIMADE AFRICA DASHBOARD",
+         page_title="ARBO AFRICA DASHBOARD",
          layout="wide",
          initial_sidebar_state="expanded",
          page_icon="img/cropped-ceri_branco-01-150x150.png"
@@ -40,8 +40,6 @@ page_infos = """
   <div>
       <strong>INFO</strong>
       <p>The data displayed on the dashboard is sourced from <a href='https://www.bv-brc.org/'>BV-BRC</a></p>
-      <p>Figures on the dashboard were inspired by <a href='https://www.science.org/doi/full/10.1126/science.abj4336'>Wilkinson et al. Science 2021</a></p>
-      <p>The CLIMADE Africa dashboard was built using the <a href='https://github.com/BIA-lab/genomic-dash'>Genomic Dash Framework</a></p>
   </div>
   <br/>
 """
@@ -58,7 +56,6 @@ page_contacts = """
   <div>
       <strong>CONTACT US:</strong>
       <ul>
-          <li>Nikita Sithram: <a>21618488@sun.ac.za</a></li>
           <li>Joicy Xavier: <a>joicy.xavier@ufvjm.edu.br</a></li>
       </ul>
   </div>
@@ -103,9 +100,6 @@ with st.container():
     
     st.markdown(col2_style,unsafe_allow_html=True)
  
-
-climade_logo = Image.open('img/climade_logo.png')
-st.image(image=climade_logo,width=150 ,use_column_width=False);
 
 
 st.markdown(css_changes, unsafe_allow_html=True)
