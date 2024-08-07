@@ -14,8 +14,7 @@ For example, if you are working with Dengue, save your metadata on data/dengue/m
 1. Make sure you have Docker installed. For more information access: https://docs.docker.com/engine/install/
 2. Open the terminal (comand line) inside the folder where the dockerfile is located.
 3. Build the image and run the conteiners: `docker-compose up --build`
-4. Run the Docker container: `docker run -p 8511:8511 --name genomic-dashboard -d genomic-dashboard .` 
-5. You can view your Dashboard in your browser URL: http://0.0.0.0:8511
+4. You can view your Dashboard in your browser URL: http://0.0.0.0:8511
 
 ## Tutorials
 
